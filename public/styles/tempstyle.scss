@@ -1,0 +1,719 @@
+.hero {
+    @apply sm:h-screen h-[100vh] flex items-end sm:py-24 py-[30px] overflow-hidden relative;
+
+    h2 {
+        @apply lg:text-[3.5rem] md:text-[4rem] sm:text-[3rem] text-[2rem] leading-tight;
+    }
+
+    .container {
+        @apply z-10 relative;
+
+        .wrpr {
+            @apply lg:w-10/12 grid gap-5;
+
+            p {
+                @apply md:text-[1.6rem] text-[1rem];
+            }
+        }
+    }
+
+    .button {
+        @apply inline-block;
+    }
+}
+
+.about {
+    @apply sm:pt-32 pt-6;
+
+    .wrpr {
+        @apply lg:flex grid flex-row gap-4;
+    }
+
+    h1 {
+        @apply lg:text-[3.5rem] md:text-[4rem] sm:text-[3rem] text-[2rem] leading-tight
+    }
+}
+
+.about-2 {
+    @apply sm:pb-32 pb-6 sm:pt-[50px] pt-[20px];
+
+    .wrpr {
+        @apply lg:flex grid flex-row gap-4;
+
+        .col-left {
+            @apply lg:basis-[50%];
+        }
+
+        .col-right {
+            @apply md:text-[1.6rem] text-[1rem];
+        }
+
+        p {
+            @apply md:text-[1.6rem] text-[1rem];
+        }
+    }
+}
+
+.about-3 {
+    @apply sm:py-32 py-6 relative;
+
+    p {
+        @apply md:text-[1.6rem] text-[1rem];
+    }
+}
+
+
+.seo-report {
+
+    .wrpr {
+        @apply z-10 relative;
+
+        .inner {
+            @apply lg:basis-[100%] bg-sky-950 bg-opacity-30 backdrop-filter backdrop-blur-lg rounded-3xl grid gap-5 content-center overflow-hidden;
+
+            .wrpr {
+                @apply grid grid-cols-1 lg:grid-cols-2;
+
+                .inner {
+                    @apply overflow-hidden;
+
+                    .video-offer {
+                        @apply w-full h-full grayscale opacity-65
+                    }
+                }
+
+                .content {
+                    @apply text-center lg:text-start lg:p-20 sm:p-16 p-10;
+
+                    h3 {
+                        @apply lg:text-[1.2rem] text-[1rem];
+                    }
+
+                    h2 {
+                        @apply lg:text-[2.5rem] sm:text-[2rem] text-[2rem] leading-tight mb-4 mt-4
+                    }
+
+                    p {
+                        @apply lg:text-[1.6rem] text-[1rem] mb-7
+                    }
+                }
+            }
+        }
+    }
+
+    .btn {
+        @apply sm:w-auto w-full mx-auto
+    }
+
+}
+
+
+.services-1 {
+    @apply sm:py-32 py-6 relative;
+
+    .wrpr {
+        @apply lg:flex grid flex-row items-center gap-4;
+
+        h2 {
+            @apply lg:text-[3.5rem] md:text-[3rem] sm:text-[2rem] text-[2rem] leading-tight mb-10;
+
+            .content {
+                @apply grid gap-5;
+            }
+        }
+
+        .img-wrpr {
+            @apply relative items-center hidden xl:block;
+
+            .photo-box-wrpr {
+                @apply relative mx-auto;
+            }
+        }
+    }
+}
+
+
+.services-2 {
+    @apply sm:py-32 py-6 relative;
+
+    .container {
+        @apply z-10 relative;
+    }
+
+    .wrpr {
+        @apply sticky top-8 lg:mb-0 mb-10;
+
+        h2 {
+            @apply lg:text-[3.5rem] md:text-[3rem] sm:text-[2rem] text-[2rem] leading-tight;
+        }
+    }
+}
+
+.download {
+    @apply relative;
+
+    .container {
+        @apply z-10 relative;
+
+    }
+
+    .wrpr-download {
+
+
+        h3 {
+            @apply md:text-[1.6rem] text-[1rem];
+        }
+
+        .btn {
+            @apply sm:w-auto w-full;
+        }
+
+    }
+}
+
+
+.service-3 {
+    @apply sm:py-32 py-6 relative;
+
+    .container {
+        @apply z-10 relative;
+    }
+
+    .wrpr {
+        @apply grid flex-row sm:gap-20 gap-8;
+    }
+
+    h2 {
+        @apply lg:text-[3.5rem] md:text-[3rem] sm:text-[2rem] text-[2rem] leading-tight
+    }
+
+    .content {
+        @apply md:text-[1.2rem] text-[1rem];
+
+    }
+
+    .content-wrpr {
+        @apply grid lg:grid-cols-4 sm:grid-cols-2 gap-8;
+    }
+}
+
+
+.service-list-heading {
+
+    @apply container;
+
+    h2 {
+        @apply text-4xl leading-normal;
+    }
+}
+
+
+.about-bottom {
+    @apply sm:pt-32 pt-6 relative;
+
+    .container {
+        @apply z-10 relative;
+    }
+
+    .wrpr {
+        @apply lg:flex grid flex-row gap-4 border-t border-sky-700 sm:py-32 py-6;
+    }
+
+    .col-left {
+        @apply lg:basis-[60%] grid gap-7 sticky;
+    }
+
+    h3 {
+        @apply lg:text-[3.5rem] md:text-[3rem] sm:text-[2rem] text-[2rem] leading-tight;
+    }
+
+    .col-right {
+        @apply lg:basis-[40%] grid gap-7;
+    }
+
+    p {
+        @apply md:text-[1.6rem] text-[1rem];
+    }
+}
+
+
+
+
+.who-we-are {
+
+    @apply sm:pb-20 pb-6 relative z-50;
+
+    .container {
+        @apply z-10 relative;
+    }
+
+    .wrpr {
+        @apply grid flex-row gap-10;
+    }
+
+
+    h4 {
+        @apply lg:text-[3.5rem] md:text-[3rem] sm:text-[2rem] text-[2rem] leading-tight;
+
+    }
+
+    .wrpr-2 {
+        @apply grid lg:grid-cols-4 sm:grid-cols-2 gap-5 place-items-center;
+    }
+
+    .content {
+        @apply text-lg leading-8 rounded-full p-10 flex items-center text-center hover:animate-pulse bg-opacity-50 backdrop-filter backdrop-blur-lg hover:bg-sky-800 transform hover:scale-105 duration-500 ease-in-out text-lg leading-8;
+    }
+
+}
+
+
+.testimonials {
+    @apply lg:py-10 py-6 relative;
+
+    .container {
+        @apply z-10 relative sm:mb-16;
+    }
+
+    h4 {
+        @apply lg:text-[3.5rem] md:text-[3rem] sm:text-[2rem] text-[2rem] leading-tight;
+    }
+
+    .inner {
+
+        @apply border-t border-sky-700 sm:mt-12 sm:pt-12 mt-5 pt-5;
+    }
+
+}
+
+
+
+
+.footer {
+
+    @apply overflow-hidden sm:py-[100px] py-6 relative z-50;
+
+
+    .container {
+        @apply grid sm:gap-20 gap-3 z-10 relative;
+    }
+
+    .wrpr {
+        @apply lg:flex grid flex-row lg:gap-[50px] sm:gap-16 gap-[30px];
+    }
+
+    .inner-1 {
+        @apply lg:basis-[40%] grid justify-between;
+    }
+
+    .inner-2 {
+        @apply md:flex grid gap-[24px] md:gap-[100px];
+    }
+
+    .wrpr-2 {
+        @apply lg:flex flex-col flex-grow justify-end hidden;
+    }
+
+    .social {
+        @apply flex gap-2;
+
+        .list-wrpr {
+            @apply m-0;
+        }
+
+
+    }
+
+    p {
+        @apply md:text-[16px] text-[14px];
+    }
+
+    .wrpr-3 {
+        @apply basis-[60%] grid md:gap-[50px] gap-[24px] lg:justify-end;
+    }
+
+    .inner {
+        @apply md:flex grid gap-[24px] md:gap-[100px];
+    }
+
+    .heading {
+        @apply block tracking-[1px] opacity-50 mb-5 sm:mb-5 text-[14px] whitespace-nowrap;
+    }
+
+    .list-wrpr {
+        @apply md:text-[16px] text-[14px];
+
+        li {
+            @apply sm:mb-[8px] mb-[12px];
+        }
+    }
+
+
+    a {
+        @apply hover:text-sky-500 hover:animate-pulse;
+    }
+
+    .inner-2 {
+        @apply md:flex grid gap-[24px] md:gap-[100px];
+    }
+
+    .bottom-footer {
+        @apply flex lg:hidden items-end;
+    }
+
+
+    .copyright- {
+        @apply md:text-[16px] text-[14px]
+    }
+
+    .link-hover {
+        @apply hover:text-sky-500 hover:animate-pulse;
+    }
+
+    .list-wrpr {
+        @apply sm:mb-[24px] mb-[16px] mt-0 grid gap-[0px];
+    }
+}
+
+.sticky {
+    @apply top-0 right-0 left-0 z-20;
+}
+
+.header {
+
+    @apply relative sm:py-5 py-3 bg-opacity-50 backdrop-filter backdrop-blur-lg transition-all z-[99];
+   .link--{
+    @apply hover:text-sky-500 hover:animate-pulse block;
+   }
+
+   .inner---{
+    @apply columns-2 flex justify-between items-center;
+}
+
+   .label--{
+   @apply  block tracking-[2px] opacity-50 mb-5 sm:mb-10 text-xs sm:text-sm;
+}
+
+.ul-1{
+@apply pl-5 sm:mt-5 mt-2 md:text-[2rem] text-xl grid gap-[8px];
+}
+
+
+.wrpr--nav-1{
+    @apply  flex items-center gap-5
+}
+
+
+.button{
+    @apply hidden md:block;
+}
+
+}
+
+
+.header-nav-wrpr{
+
+    @apply z-[99] fixed top-0 left-0 right-0 bottom-0 w-full flex items-end overflow-hidden;
+    .nav-wrpr--{
+        @apply  gap-[50px] items-end grid md:grid-cols-2 ;
+        .col-{
+            @apply  sm:max-h-[80vh] overflow-x-auto;
+        }
+    }
+    
+    .wrpr-nav{
+        @apply   z-[99] fixed top-0 left-0 right-0 bottom-0 w-full flex items-end overflow-hidden;
+    }
+
+    .wrpr{
+        @apply    z-50 relative grid w-full h-full overflow-auto sm:p-20 p-7;
+    }
+
+    .list-ul-1
+    {
+        @apply    text-xl sm:text-4xl gap-3 sm:gap-[8px] grid;
+    }
+
+    
+   .label--{
+    @apply  block tracking-[2px] opacity-50 mb-5 sm:mb-[20px] text-xs sm:text-sm;
+ }
+
+ .p-1--{
+ @apply text-xl sm:text-3xl leading-8 sm:leading-[3rem];
+ }
+
+ .p-2--{
+ @apply  text-xl sm:text-3xl leading-8 sm:leading-[3rem] mb-[8px];
+}
+
+.col--2{
+    @apply  gap-3 sm:gap-0 grid;
+}
+
+a{
+    @extend .p-1--;
+}
+
+.ul--3{
+    @apply pl-5 md:text-[1.7rem] text-xl grid sm:gap-[8px] gap-3 ;
+}
+
+
+.wrpr-ul{
+    @apply  pl-5 md:text-[1.7rem] text-xl gap-[8px] mt-[8px]  mb-0;
+}
+a{
+    @apply text-xl sm:text-3xl leading-8 sm:leading-[3rem]   
+}
+.ul-1{
+    @apply pl-5  gap-[8px];
+    }
+    .social{
+    @apply mt-[30px] flex gap-[10px];
+}
+}
+
+.sticky{
+    @apply top-0 right-0 left-0 z-20;
+}
+
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .gradient {
+    --size: 750px;
+    --speed: 10s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  
+opacity: 0.7;;
+    position: fixed;
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(hsl(222, 84, 60, 100%), hsl(164, 79, 71));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+
+  .gradient {
+    --size: 200px;
+  }
+
+  
+  @media (min-width: 720px) {
+    .gradient {
+      --size: 300px;
+    }
+  }
+  
+
+  
+  /* This is just to transition when you change the viewport size. */
+  * {
+    transition: all 0.5s ease-out;
+  }
+
+
+
+
+.animation-container {
+    background: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .shape1 {
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    width: 25rem;
+    height: 25rem;
+    background: pink;
+    border-radius: 24% 76% 77% 23% / 30% 30% 70% 70%;
+    filter: blur(6rem);
+    animation: shape1 20s infinite;
+  }
+  
+  @keyframes shape1 {
+    0% {
+      transform: translate(0, 0);
+      border-radius: 24% 76% 77% 23% / 30% 30% 70% 70%;
+    }
+    25% {
+      transform: translate(-55%, -10%);
+      border-radius: 28% 72% 81% 19% / 78% 25% 75% 22%;
+      height: 50rem;
+      width: 80rem;
+    }
+    50% {
+      transform: translate(-90%, -10%);
+      border-radius: 60% 40% 0% 100% / 1% 74% 26% 99%;
+    }
+    75% {
+      transform: translate(-30%, -10%);
+      border-radius: 0% 100% 100% 0% / 0% 100% 100% 0%;
+      height: 30rem;
+      width: 45rem;
+    }
+    100% {
+      transform: translate(0%, 0%);
+      border-radius: 24% 76% 77% 23% / 30% 30% 70% 70%;
+    }
+  }
+  
+  .shape2 {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 35rem;
+    height: 25rem;
+    background: lightblue;
+    border-radius: 73% 27% 77% 23% / 53% 4% 96% 47%;
+    filter: blur(12rem);
+    animation: shape2 35s infinite;
+  }
+  
+  @keyframes shape2 {
+    0% {
+      transform: translate(0, 0);
+      border-radius: 73% 27% 77% 23% / 53% 4% 96% 47%;
+    }
+    25% {
+      transform: translate(-55%, -55%);
+      border-radius: 28% 72% 81% 19% / 78% 25% 75% 22%;
+      height: 50rem;
+      width: 50rem;
+    }
+    50% {
+      transform: translate(-70%, -70%);
+      border-radius: 60% 40% 0% 100% / 1% 74% 26% 99%;
+    }
+    75% {
+      transform: translate(-30%, -30%);
+      border-radius: 0% 100% 100% 0% / 0% 100% 100% 0%;
+    }
+    100% {
+      transform: translate(0%, 0%);
+      border-radius: 73% 27% 77% 23% / 53% 4% 96% 47%;
+    }
+  }
+  
+  .shape3 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 25rem;
+    height: 25rem;
+    background: lightblue;
+    border-radius: 70% 30% 80% 20% / 42% 25% 75% 58%;
+    filter: blur(14rem);
+    animation: shape3 35s infinite;
+  }
+  
+  @keyframes shape3 {
+    0% {
+      transform: translate(0, 0);
+      border-radius: 70% 30% 80% 20% / 42% 25% 75% 58%;
+    }
+    25% {
+      transform: translate(-125%, -25%);
+      border-radius: 28% 72% 81% 19% / 78% 25% 75% 22%;
+      height: 50rem;
+      width: 50rem;
+    }
+    50% {
+      transform: translate(-90%, -35%);
+      border-radius: 60% 40% 0% 100% / 1% 74% 26% 99%;
+    }
+    75% {
+      transform: translate(-30%, -40%);
+      border-radius: 0% 100% 100% 0% / 0% 100% 100% 0%;
+    }
+    100% {
+      transform: translate(0%, 0%);
+      border-radius: 70% 30% 80% 20% / 42% 25% 75% 58%;
+    }
+  }
+  
+  .shape4 {
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    width: 25rem;
+    height: 25rem;
+    background: pink;
+    border-radius: 24% 76% 77% 23% / 30% 30% 70% 70%;
+    filter: blur(5rem);
+    // animation: shape1 20s infinite;
+  }
+  
+  .shape5 {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 35rem;
+    height: 25rem;
+    background: lightyellow;
+    border-radius: 73% 27% 77% 23% / 53% 4% 96% 47%;
+    filter: blur(5rem);
+    // animation: shape2 15s infinite;
+  }
+  
+  .shape6 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 25rem;
+    height: 25rem;
+    background: lightblue;
+    border-radius: 70% 30% 80% 20% / 42% 25% 75% 58%;
+    filter: blur(5rem);
+    // animation: shape3 30s infinite;
+  }
+  
+
+.quick-contact--{ 
+    
+  @apply  md:flex grid flex-row gap-4 justify-center w-full;
+.area {
+    @apply  relative
+}
+    .inner {
+        @apply lg:basis-[50%] flex justify-end
+    }
+      .wrpr{
+        @apply  md:text-[1.6rem] text-[1rem] rounded-full   p-16 flex items-center text-center cursor-pointer   transform hover:scale-105 duration-500 ease-in-out
+      }
+     
+.inner-2{
+    @apply  lg:basis-[50%] flex justify-end
+}
+     .wrpr-2 {
+        @apply    md:text-[1.6rem] text-[1rem] rounded-full   p-16 flex items-center text-center cursor-pointer   transform hover:scale-105 duration-500 ease-in-out
+     }
+   
+   
+    }
+
+    .testimonial-slider-wrpr{
+        @apply  grid gap-7;
+
+        .content{
+            @apply  md:text-[1.5rem] text-[1rem];
+  }
+
+
+        p{
+            @apply  md:text-[1.5rem] text-[1rem] mt-6;
+        }
+    }
