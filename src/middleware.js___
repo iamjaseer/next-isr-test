@@ -1,0 +1,16 @@
+import { NextResponse } from 'next/server';
+
+export async function middleware(request) {
+  const { url } = request;
+  
+
+  // Check if the URL ends with a slash and is not the root path '/'
+  if (url.endsWith('/') && url !== '/') {
+    // Redirect to a 404 page
+    return NextResponse.error(new Error('Page not found'), { status: 404 });
+  }
+
+  // If no trailing slash or it's the root path, continue
+  return NextResponse.next();
+}
+
